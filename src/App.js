@@ -13,7 +13,7 @@ function App() {
       <CssBaseline />
       <div style={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <Container component="main" maxWidth="xs">
-          <Paper elevation={3} style={{ padding: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', borderRadius: '15px', sizeadjust: '100%' }}>
+          <Paper elevation={3} style={{ padding: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', borderRadius: '15px', sizeadjust: '100%', backgroundImage:'linear-gradient(to right,#7CB9E8,#6A5ACD)' }}>
             <Typography variant="h5" style={{fontFamily: 'Georgia, serif'}}>TODO-LIST</Typography>
             <TodoList />
           </Paper>
